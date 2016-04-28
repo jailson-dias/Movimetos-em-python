@@ -1,0 +1,16 @@
+Programa para sair de uma matriz e depois de uma seguencia de movimentos chegar em outra matriz.
+
+A entrada das matrizes devem ser feitas colocando um numero em cada linha
+como a seguir:
+	1
+	1
+	0
+	1
+	1
+	0
+	1
+	1
+	1
+	
+depois que é finalizada de ser digitada a matriz é mostrado como ficou a matriz.
+No final é impresso todas as matriz necessarias para sair da matriz de entreda para a matriz de saida, caso não seja possivel com os movimentos disponiveis é impresso a mensagem "Nenhum caso possivel".
