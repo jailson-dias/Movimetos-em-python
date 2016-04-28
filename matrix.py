@@ -124,24 +124,25 @@ while fim == False:
 				imprimir(movim)
 				mov.append(movim)
 		else:
+			print "Movimentos padrao\n"
 			a1 = [[1,1,0],[1,0,0],[0,0,0]]
-			print imprimir(a1)
+			print "Matriz movimento 1\n",imprimir(a1)
 			a2 = [[1,1,0],[0,1,0],[0,0,0]]
-			print imprimir(a2)
+			print "Matriz movimento 2\n",imprimir(a2)
 			a3 = [[0,1,1],[0,0,1],[0,0,0]]
-			print imprimir(a3)
+			print "Matriz movimento 3\n",imprimir(a3)
 			a4 = [[1,0,0],[1,1,0],[1,0,0]]
-			print imprimir(a4)
+			print "Matriz movimento 4\n",imprimir(a4)
 			a5 = [[0,1,0],[1,1,1],[0,1,0]]
-			print imprimir(a5)
+			print "Matriz movimento 5\n",imprimir(a5)
 			a6 = [[0,0,1],[0,1,1],[0,0,1]]
-			print imprimir(a6)
+			print "Matriz movimento 6\n",imprimir(a6)
 			a7 = [[0,0,0],[1,0,0],[1,1,0]]
-			print imprimir(a7)
+			print "Matriz movimento 7\n",imprimir(a7)
 			a8 = [[0,0,0],[0,1,0],[1,1,1]]
-			print imprimir(a8)
+			print "Matriz movimento 8\n",imprimir(a8)
 			a9 = [[0,0,0],[0,0,1],[0,1,1]]
-			print imprimir(a9)
+			print "Matriz movimento 9\n",imprimir(a9)
 			mov.append(a1)
 			mov.append(a2)
 			mov.append(a3)
@@ -157,7 +158,7 @@ while fim == False:
 
 saida = encontrar(x,atribuir(mov,sub(len(mov))),y)
 if saida != "Nenhum caso possivel":
-	print "Matrizes para fazer a transicao da matriz de entrada para a matriz de saida"
+	print "Matrizes para fazer a transicao da matriz de entrada para a matriz de saida\n"
 	num = 0
 	for sa in saida:
 		print "Matiz " + str(num + 1)
