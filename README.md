@@ -14,4 +14,4 @@ como a seguir:
 	9. 1
 	
 Depois que é finalizado de digitar a matriz, ela é impressa no terminal.
-No final é impresso no terminal todos os movimentos necessarias para sair da matriz de inicial até a matriz de final, caso não seja possivel com os movimentos disponiveis é impresso a mensagem "Nenhum caso possivel".
+No final é impresso no terminal todos os movimentos necessarias para sair da matriz inicial até a matriz final, caso não seja possivel com os movimentos disponiveis é impresso a mensagem "Nenhum caso possivel".
